@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Máy tính chiết khấu sản phẩm</title>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+</head>
+
+<body>
+    <div id="content">
+        <h1>Máy tính chiết khấu sản phẩm</h1>
+        <form action="display_discount.php" method="post">
+
+            <div id="data">
+                <label>Mô tả sản phẩm:</label>
+                <input type="text" name="product_description"/><br />
+
+                <label>Giá niêm yết:</label>
+                <input type="text" name="list_price"/><br />
+
+                <label>Phần trăm chiết khấu:</label>
+                <input type="text" name="discount_percent"/>%<br />
+            </div>
+
+            <div id="buttons">
+                <label>&nbsp;</label>
+                <input type="submit" value="Tính chiết khấu" /><br />
+            </div>
+
+        </form>
+    </div>
+</body>
+</html>

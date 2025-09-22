@@ -1,6 +1,6 @@
-<?php
+
 // Gọi file connect
-require "connect.php";
+<?php  include_once('../connect.php'); ?>
 
 // Câu lệnh SQL
 $sql = "SELECT * FROM theloai ORDER BY ThuTu ASC";
